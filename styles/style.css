@@ -294,6 +294,15 @@ p {
 
 .logo {
   width: 3rem;
+
+}
+.hero-headline-logo{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 .hero-headline-wrapper {
@@ -303,7 +312,9 @@ p {
   align-items: center;
   justify-content: center;
   padding: 2rem 4rem;
+  margin-left: 50vw;
   text-align: left;
+  border: 2px dotted hotpink;
 }
 
 .hero-icon {
