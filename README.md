@@ -9,7 +9,7 @@ A simple but highly customizable responsive template for graphic designers, illu
 
 - Big hero area for your branding and intro
 - Work page is based on CSS Grid and project preview images size is easily adjustable
-- Grayscale filter on project images / full color on hover
+- Grayscale filter on project-images / full color on hover
 - Project page has a sticky sidebar
 - Custom cursor
 - Make something randomly fly across the screen
