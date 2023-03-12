@@ -502,7 +502,7 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 50vh;
   background: #07071b;
   padding-top: 2rem;
   margin-top: 5rem;
@@ -860,7 +860,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .global-footer {
     padding: 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    
   }
 
   .about-item-1 {
