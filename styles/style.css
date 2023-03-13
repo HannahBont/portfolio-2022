@@ -47,7 +47,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  
+
 }
 
 *,
@@ -58,9 +58,10 @@ html {
 
 
 
-.page-wrapper, .spinoff {
-padding: 6rem; 
-background: lightgoldenrodyellow;
+.page-wrapper,
+.spinoff {
+  padding: 0;
+  background: lightgoldenrodyellow;
 
 }
 
@@ -84,7 +85,7 @@ background: lightgoldenrodyellow;
   --overlay-color: #5200FF;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
+  --hover-color: #c2c1cc;
   --body-typeface: 'Lexend', sans-serif;
   --heading-typeface: 'Jost', sans-serif;
   --project-title-typeface: 'Jost', sans-serif;
@@ -114,10 +115,12 @@ body {
 ::selection {
   background: var(--accent-color);
 }
+
 /*changes selection colour*/
 
 /* Making all images responsive */
-img, svg {
+img,
+svg {
   max-width: 100%;
   height: auto;
   vertical-align: top;
@@ -147,13 +150,22 @@ h1 {
   color: rgb(3, 14, 33);
 }
 
-.hero-header {background: yellowgreen; width: 100%; display: flex; flex-direction: row;align-items: center;}
-.hero-headline {color: var(--overlay-color);}
+.hero-header {
+  background: yellowgreen;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-headline {
+  color: var(--overlay-color);
+}
 
 .project-title {
   font-size: 3rem;
   font-family: var(--project-title-typeface);
-  color: var(--project-title-color);  
+  color: var(--project-title-color);
   margin-bottom: 1rem;
 
   color: var(--primary-text-color);
@@ -175,7 +187,7 @@ h3 {
   font-size: 1.325rem;
   margin-bottom: 2rem;
   line-height: 1.3;
-  
+
 }
 
 h4 {
@@ -184,11 +196,27 @@ h4 {
 
 /* Hyperlink Styles */
 
-a:link    { color: var(--hyperlink-color); text-decoration: none;}
-a:visited { color: var(--hyperlink-color); }
-a:hover   { color: var(--hover-color); }
-a:focus   { outline: 1px solid var(--accent-color); }
-a:active  { color: var(--hover-color); /* Tap on mobile */ }
+a:link {
+  color: var(--hyperlink-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--hyperlink-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+a:focus {
+  outline: 1px solid var(--accent-color);
+}
+
+a:active {
+  color: var(--hover-color);
+  /* Tap on mobile */
+}
 
 .navigation-arrow {
   color: var(--alt-background-color);
@@ -212,7 +240,7 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 }
 
 .custom-navigation {
-padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 p {
@@ -239,12 +267,14 @@ p {
 
 .social-item {
   line-height: 1.3;
+  padding-right: 1rem;
+  color: var(--background-color);
 }
 
 .list-item {
-    line-height: 1.3;
-    list-style-type: disc;
-    margin-left: 1.2rem;
+  line-height: 1.3;
+  list-style-type: disc;
+  margin-left: 1.2rem;
 }
 
 .project-description {
@@ -304,6 +334,7 @@ img {
   justify-content: flex-end;
   align-items: flex-end;
 }
+
 .large {
   width: 60%;
   justify-content: flex-start;
@@ -320,7 +351,11 @@ img {
   text-align: left;
 }
 
-.hero-logo, .hero-headline {width: 100%; background: burlywood;}
+.hero-logo,
+.hero-headline {
+  width: 100%;
+  background: burlywood;
+}
 
 
 /*.hero {
@@ -475,7 +510,7 @@ img {
 .about-item-2 {
   grid-column: 2 / 2;
   grid-row: 2 / 3;
-  border:2px dotted #723850;
+  border: 2px dotted #723850;
 }
 
 
@@ -497,24 +532,44 @@ img {
   background: #07071b;
   padding-top: 2rem;
   margin-top: 5rem;
-  border:2px dotted #723850;
+  border: 2px dotted #723850;
+}
+
+a.footer-link {
+  color: var(--background-color);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+a.footer-link:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.fa-instagram:hover {
+  color: rgb(46, 46, 181);
 }
 
 .footer-item-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   color: var(--off-white);
-  
-}
-.socials-list{
-  grid-column: 1 / 2;
-  grid-row: 2 / 2;
+
 }
 
+.footer-item-2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 2;  
+}
+.socials-list{
+  display: flex;
+  flex-direction: row;
+  background-color: #5200FF;
+}
 .footer-item-3 {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
-  border:2px dotted hotpink;
+  border: 2px dotted hotpink;
 }
 
 
@@ -570,6 +625,7 @@ img {
   align-items: center;
   justify-content: center;
 }
+
 .text-section {
   width: 100%;
 }
@@ -589,7 +645,7 @@ img {
   padding: 4rem;
 }
 
-.project-content{
+.project-content {
   margin-bottom: 2rem;
 }
 
@@ -608,14 +664,19 @@ img {
 .holding-page-wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto;  
+  grid-template-rows: 1fr auto;
   place-items: center;
   text-align: center;
   width: 100%;
   min-height: 100vh;
 }
 
-.holding-page-inner-container {width: 50%; display: grid; place-items: center;}
+.holding-page-inner-container {
+  width: 50%;
+  display: grid;
+  place-items: center;
+}
+
 .holding-page-animation {
   width: 50%;
   margin-bottom: 1rem;
@@ -635,7 +696,7 @@ img {
   place-items: center;
   min-height: 10vh;
   width: 100%;
-} 
+}
 
 .holding-page-copyright {
   font-size: .8rem;
@@ -702,26 +763,47 @@ img {
   font-size: 2rem;
 }
 
-.experiments-text {color: var(--alice-blue);}
+.experiments-text {
+  color: var(--alice-blue);
+}
 
 .experiment-1-wrapper {
   display: flex;
-  flex-direction: row; 
-  margin-bottom: 1rem;  
+  flex-direction: row;
+  margin-bottom: 1rem;
   flex: 1;
 }
 
-.experiment-2-wrapper {  display: flex;
-  flex-direction: row; 
-  margin-bottom: 1rem;  
+.experiment-2-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
   flex: 1;
   align-items: center;
-  justify-content: center;}
+  justify-content: center;
+}
 
-.sub-navigation {display: flex; flex-direction: row; justify-content: space-evenly; padding: 1rem;  text-align: center;}
+.sub-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  text-align: center;
+}
+
 .sub-navigation-item {}
-a.sub-navigation-link {border: 1px solid var(--accent-color); color: var(--accent-color); padding: 1rem;}
-a.sub-navigation-link:hover {background: var(--accent-color); color: var(--floral-white); padding: 1rem;}
+
+a.sub-navigation-link {
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  padding: 1rem;
+}
+
+a.sub-navigation-link:hover {
+  background: var(--accent-color);
+  color: var(--floral-white);
+  padding: 1rem;
+}
 
 /* Let's size the boxes */
 
@@ -732,26 +814,35 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   place-items: center;
 }
 
-.image {width: 40%;}
+.image {
+  width: 40%;
+}
 
 /* Let's hide box 2 */
 
 .experiment-image-2 {
   display: none;
 }
-.experiment-image-single { 
+
+.experiment-image-single {
   width: 20rem;
   padding: 2rem;
   display: grid;
-  place-items: center; }
+  place-items: center;
+}
 
 #heyday-logo-blue {
   animation: rotation 9s infinite linear;
 }
 
 @-webkit-keyframes rotation {
-  from {transform: rotate(0deg);}
-  to { transform: rotate(359deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 
@@ -777,6 +868,14 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   body {
     padding: 2rem;
   }
+
+  .page-wrapper,
+  .spinoff {
+    padding: 6rem;
+
+  }
+
+
   .holding-page-title {
     font-size: 2rem;
   }
@@ -800,15 +899,14 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   .menu {
     flex-direction: row;
   }
-  .menu-item {
 
-  }
+  .menu-item {}
 
   .small {
     justify-content: flex-end;
-  
+
   }
- 
+
 
   .hero {
     min-height: 100vh;
@@ -820,7 +918,10 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     justify-content: flex-end;
   }
 
-  .hero-logo, .hero-headline {width: 50%;}
+  .hero-logo,
+  .hero-headline {
+    width: 50%;
+  }
 
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
@@ -846,8 +947,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .global-footer {
-    padding: 4rem;
-    
+    padding: 6rem;
   }
 
   .about-item-1 {
@@ -866,8 +966,8 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .footer-item-2 {
-    grid-row: 1 / 2;
-    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
   }
 
   .about-item-3 {
@@ -917,7 +1017,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     width: 65%;
     padding: 1rem;
   }
-  
+
 
 
   .project-image {
