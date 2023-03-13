@@ -517,7 +517,6 @@ img {
 .socials-list{
   grid-column: 1 / 2;
   grid-row: 2 / 2;
-  
 }
 
 .footer-item-3 {
@@ -595,10 +594,12 @@ img {
 
 .project-details {
   width: 100%;
-  padding: 0;
+  padding: 4rem;
 }
 
-
+.project-content{
+  margin-bottom: 2rem;
+}
 
 
 
