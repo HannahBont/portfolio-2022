@@ -58,7 +58,7 @@ html {
 
 
 
-.work-page, .spinoff {
+.page-wrapper, .spinoff {
 padding: 6rem; 
 background: lightgoldenrodyellow;
 
@@ -230,7 +230,7 @@ p {
 }
 
 .footer-nav-item {
-  line-height: 1.3;
+  line-height: 2;
 }
 
 .award-item {
@@ -500,12 +500,12 @@ img {
 
 .global-footer {
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 50vh;
   background: #07071b;
   padding-top: 2rem;
   margin-top: 5rem;
+  border:2px dotted #723850;
 }
 
 .footer-item-1 {
@@ -514,10 +514,10 @@ img {
   color: var(--off-white);
   
 }
-
-.footer-item-2 {
+.socials-list{
   grid-column: 1 / 2;
-  grid-row: 2 / 3;
+  grid-row: 2 / 2;
+  
 }
 
 .footer-item-3 {
@@ -526,12 +526,6 @@ img {
   border:2px dotted hotpink;
 }
 
-.footer-item-4 {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
-
-.awards-list {margin-bottom: 2rem;}
 
 
 /* Project Page 
@@ -673,7 +667,7 @@ img {
   place-items: center;
 }
 
-.error-page-wrapper {}
+
 
 .error-page-inner-container {
   text-align: center;
@@ -699,7 +693,7 @@ img {
   background: black;
 }
 
-.experiments-page-wrapper { }
+
 
 .experiments-page-inner-container {
   text-align: center;
