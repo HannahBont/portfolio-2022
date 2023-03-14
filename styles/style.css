@@ -161,9 +161,8 @@ h1 {
   font-family: var(--project-title-typeface);
   color: var(--primary-text-color);
   line-height: 3rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   padding-bottom: 2rem;
-  padding-left: 5rem;
 }
 
 .overlay-title {
@@ -171,7 +170,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.25rem;
+  font-size: 2.0rem;
   font-family: 'Lexend', sans-serif;
   margin-bottom: 1rem;
 }
@@ -340,7 +339,11 @@ img {
   padding-bottom: 2rem;
 }
 
-.hero-logo,
+.hero-logo{
+  width: 100%;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
 .hero-headline {
   width: 100%;
 }
@@ -874,7 +877,7 @@ a.sub-navigation-link:hover {
   }
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   h3 {
@@ -908,11 +911,11 @@ a.sub-navigation-link:hover {
   }
 
   .hero-logo{
-    width: 30%;
+    width: 50%;
 
   }
   .hero-headline {
-  width: 70%;
+  width: 50%;
   }
 
   .grid {
