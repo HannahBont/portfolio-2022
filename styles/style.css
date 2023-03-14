@@ -159,17 +159,11 @@ h1 {
 }
 
 .hero-headline {
-  color: var(--overlay-color);
-}
-
-.project-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: var(--project-title-typeface);
-  color: var(--project-title-color);
-  margin-bottom: 1rem;
-
   color: var(--primary-text-color);
-
+  line-height: 3rem;
+  padding-bottom: 4rem;
 }
 
 .overlay-title {
@@ -315,7 +309,7 @@ img {
   width: 100%;
   border: 2px dotted seagreen;
   justify-content: space-between;
-  padding: 0.5rem;
+  padding-bottom: 0.5rem;
   margin: 0 auto;
 }
 
@@ -354,7 +348,6 @@ img {
 .hero-logo,
 .hero-headline {
   width: 100%;
-  background: burlywood;
 }
 
 
@@ -438,6 +431,7 @@ img {
 
 .work-wrapper {
   flex: 1;
+  padding: 6rem;
 }
 
 
@@ -871,7 +865,8 @@ a.sub-navigation-link:hover {
 
   .page-wrapper,
   .spinoff {
-    padding: 6rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 
   }
 
