@@ -241,6 +241,11 @@ p {
   margin-bottom: 1rem;
 }
 
+
+.icon-list {display: flex;
+  flex-direction: row;
+  background: yellowgreen;}
+
 .fineprint {
   font-size: .875rem;
 }
@@ -884,7 +889,7 @@ a.sub-navigation-link:hover {
   }
 
   .menu {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .menu-item {
@@ -923,7 +928,7 @@ a.sub-navigation-link:hover {
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 1rem;
   }
 
