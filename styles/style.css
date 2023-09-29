@@ -232,7 +232,7 @@ a:active {
 }
 
 .custom-navigation {
-  padding-left: 1rem;
+  margin-bottom: 0.4rem;
 }
 
 p {
@@ -308,7 +308,6 @@ img {
   width: 100%;
   justify-content: space-between;
   padding-bottom: 0.5rem;
-  margin-top: 0.5rem;
 }
 
 .menu {
@@ -584,7 +583,7 @@ a.footer-link:hover {
 /* Sidebar */
 .project-aside {
   width: 100%;
-  padding: 1rem;
+  padding-right: 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -864,6 +863,7 @@ a.sub-navigation-link:hover {
   .spinoff {
     padding-left: 6rem;
     padding-right: 6rem;
+    padding-top: 6rem;
 
   }
 
@@ -874,6 +874,7 @@ a.sub-navigation-link:hover {
 
   h1 {
     font-size: 3rem;
+    line-height: 0.6;
   }
 
   h2 {
@@ -894,7 +895,21 @@ a.sub-navigation-link:hover {
 
   .menu-item {
     font-size: 1rem;
+    font-weight: 300;
   }
+
+h1 .menu-name {
+font-size: 2rem;
+font-weight: 800;
+margin-bottom: 5rem;
+}
+
+h2 .menu-subhead{
+font-size: 1.5rem;
+font-weight: 500;
+margin-bottom: 5rem;
+}
+
 
   .small {
     justify-content: flex-end;
@@ -1013,7 +1028,7 @@ a.sub-navigation-link:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 5vh;
-    padding-right: 2rem;
+    padding-right: 1;
   }
 
   /* Main Project Image Area on Large Devices */
