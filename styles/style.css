@@ -236,6 +236,9 @@ a:active {
   margin-right: 0.4rem;
 }
 
+.custom-navigation:last-of-type {margin-bottom: 2rem; background: yellowgreen;}
+
+
 p {
   font-size: 1rem;
   line-height: 2;
@@ -329,6 +332,7 @@ img {
   justify-content: flex-start;
   font-weight: 800;
   font-size: 1.2rem;
+  border: 2px solid hotpink;
 }
 
 .hero-wrapper {
@@ -1065,8 +1069,41 @@ margin-bottom: 5rem;
 
 /* X-Large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+body {background: yellow;}
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+  }
+
+
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+
+  body {background: hotpink;}
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+  }
+
+}
+
+
+
+
+/* XX-Large devices (larger desktops, 1600px and up) */
+
+@media (min-width: 1600px) {
+
+  body {background: lemonchiffon;}
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 1rem;
+  }
+
+}
