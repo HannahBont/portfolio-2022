@@ -1106,4 +1106,19 @@ body {background: yellow;}
     grid-gap: 1rem;
   }
 
+
+
+
+
+  /* XX-Large devices (larger desktops, 1920px and up) */
+
+@media (min-width: 1920px) {
+
+  body {background: lightcoral;}
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 1rem;
+  }
+
 }
