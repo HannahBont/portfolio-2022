@@ -143,7 +143,6 @@ svg {
 h1 {
   font-size: 2rem;
   font-family: 'Jost', sans-serif;
-  line-height: 1.4em;
   margin-bottom: 1rem;
   color: rgb(3, 14, 33);
 }
@@ -331,8 +330,6 @@ img {
   width: 100%;
   justify-content: flex-start;
   font-weight: 800;
-  font-size: 1.2rem;
-  border: 2px solid hotpink;
 }
 
 .hero-wrapper {
@@ -605,6 +602,13 @@ a.footer-link:hover {
   padding: 0;
 }
 
+.project-info {
+
+  display: flex;
+  flex-direction: row;
+}
+.project-title-and-categories-container {width: 45%;}
+.project-description-container {width: 55%;}
 .project-image-container {
   display: flex;
   align-items: center;
@@ -878,9 +882,9 @@ a.sub-navigation-link:hover {
   }
 
   h1 {
-    font-size: 3rem;
-    line-height: 0.6;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.0;
+    font-weight: 800;
   }
 
   h2 {
@@ -904,10 +908,6 @@ a.sub-navigation-link:hover {
     font-weight: 300;
   }
 
-h1 .menu-name {
-font-size: 2rem;
-font-weight: 800;
-}
 
 h2 .menu-subhead{
 font-size: 1.5rem;
@@ -1023,13 +1023,14 @@ margin-bottom: 5rem;
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: row;
+    width: 80%;
     padding-top: 6rem;
 
   }
 
   /* Sidebar on Large Devices */
   .project-aside {
-    width: 35%;
+    width: 20%;
     height: 65vh;
     position: -webkit-sticky;
     position: sticky;
@@ -1039,8 +1040,8 @@ margin-bottom: 5rem;
 
   /* Main Project Image Area on Large Devices */
   .project-details {
-    width: 65%;
-    padding: 1rem;
+    width: 80%;
+    padding-top: 6rem;
   }
 
 
