@@ -370,7 +370,7 @@ p {
   transition: opacity 0.3s, visibility 0.3s;
 }
 
-.work-page-grid-item:hover .overlay {
+.work-page-grid-item:hover .effect1 {
   visibility: visible;
   opacity: 0.8;
 }
@@ -827,15 +827,25 @@ a.sub-navigation-link:hover {
     grid-gap: 1rem;
   }
 
-  /* Grayscale filter with full-colour on hover and tap */
-  .work-page-grid-item a img {
-    filter: grayscale(100);
+  /* hover and tap */
+  .overlay {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    opacity: 0;
+    transition: 0.75s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  .work-page-grid-item > a:active img,
-  .work-page-grid-item > a:hover img {
-    filter: grayscale(0);
-  }
+  .effect1 {
+    background-color: var(--accent-colour);}
 
   .about {
     padding-top: 4rem;
