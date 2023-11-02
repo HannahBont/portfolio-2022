@@ -211,6 +211,9 @@ a:active {
 .custom-navigation:last-of-type {
   margin-bottom: 2rem;
 }
+.project-list-item {
+padding-bottom: .5rem;
+}
 
 .project-list-item:last-of-type,
 .icon-list {
