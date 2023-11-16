@@ -168,9 +168,9 @@ h3 {
 
 h4 {
   color: var(--baby-powder);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 300;
-  padding-top: 2rem;
+  padding-top: 1.45rem;
   font-family: "Jost", sans-serif;
 }
 
@@ -515,7 +515,7 @@ a.footer-link:hover {
 .project-info {
   display: flex;
   flex-direction: row;
-  padding-bottom: 4rem;
+  padding-bottom: 3.25rem;
 }
 
 .project-title-and-categories-container {
@@ -557,7 +557,7 @@ a.footer-link:hover {
 }
 
 .project-content {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* 
@@ -803,7 +803,7 @@ a.sub-navigation-link:hover {
   .menu-item {
     font-size: 1rem;
     font-weight: 300;
-    padding-right: 0.5rem;
+    padding-right: 1rem;
   }
 
   .menu-subhead {
