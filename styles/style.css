@@ -84,9 +84,9 @@ html {
   --background-color: #fffcf9;
   --alt-background-color: black;
   --text-selection-background-color: #555;
-  --social-footer-link-color: pink;
-  --social-footer-link-hover-color: blue;
-  --social-footer-link-visited-color: yellowgreen;
+  --social-footer-link-color: #b29fe4;
+  --social-footer-link-hover-color: #f8f8ff;
+  --social-footer-link-visited-color: #b29fe4;
 }
 
 body {
@@ -201,16 +201,16 @@ p {
 /* Hyperlink Styles */
 
 a:link {
-  color: var(--hyperlink-color);
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--hyperlink-color);
+  color: var(--primary-text-color);
 }
 
 a:hover {
-  color: var(--off-white);
+  color: var(--hover-color);
   text-decoration: none;
 }
 
@@ -225,12 +225,13 @@ a:active {
 a.social-footer-link {
   color: var(--social-footer-link-color);
 }
-a.social-footer-link:hover {
-  color: var(--social-footer-link-hover-color);
-}
 
 a.social-footer-link:visited {
   color: var(--social-footer-link-visited-color);
+}
+
+a.social-footer-link:hover {
+  color: var(--social-footer-link-hover-color);
 }
 
 .colored-link {
@@ -306,10 +307,10 @@ a.social-footer-link:visited {
 
 .menu-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .menu {
@@ -451,7 +452,7 @@ a.social-footer-link:visited {
   grid-gap: 3rem;
   min-height: 50vh;
   background: #07071b;
-  padding-top: 2rem;
+  padding: 2rem;
   margin-top: 5rem;
 }
 
@@ -512,7 +513,6 @@ a.footer-link:hover {
 /* Sidebar */
 .project-aside {
   width: 100%;
-  padding-right: 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -566,7 +566,7 @@ a.footer-link:hover {
 
 .project-details {
   width: 100%;
-  padding: 4rem;
+  padding: 0;
 }
 
 .project-content {
@@ -770,16 +770,14 @@ a.sub-navigation-link:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-  body {
-    /* background: yellow; */
-  }
 }
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-  body {
-    /* background: green; */
+  .menu-wrapper {
+    flex-direction: row;
+    padding: 0 0 0.5rem 0;
   }
   .page-wrapper,
   .spinoff {
@@ -927,12 +925,13 @@ a.sub-navigation-link:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 6rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 
   /* Main Project Image Area on Large Devices */
   .project-details {
     width: 80%;
+    padding: 4rem;
     padding-top: 6rem;
   }
 
