@@ -599,15 +599,18 @@ a.footer-link:hover {
 }
 
 .holding-page-inner-container {
-  width: 50%;
+  width: 100%;
   display: grid;
   place-items: center;
+  background: orangered;
 }
 
 .holding-page-animation {
-  width: 50%;
+  width: 100%;
+  min-height: 50vh;
   margin-bottom: 1rem;
   margin: 0 auto;
+  background: lightblue;
 }
 
 .holding-page-title {
