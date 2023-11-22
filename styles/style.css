@@ -247,7 +247,7 @@ a.social-footer-link:hover {
   margin-bottom: 2rem;
 }
 .project-list-item {
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.655rem;
 }
 
 .project-list-item:last-of-type,
@@ -261,7 +261,12 @@ a.social-footer-link:hover {
 }
 
 .doodles {
-  max-width: 2.5rem;
+  max-width: 2.2rem;
+  padding-left: 0.1rem;
+}
+.scroll-icon {
+  max-width: 6rem;
+  margin-bottom: 1.75rem;
 }
 
 .fineprint {
@@ -814,14 +819,14 @@ a.sub-navigation-link:hover {
   .menu-item {
     font-size: 1rem;
     font-weight: 300;
-    padding-right: 1rem;
+    padding-right: 0.8rem;
   }
 
   .menu-subhead {
     font-size: 1.5rem;
     font-weight: 500;
     border-bottom: 0.08rem solid #e0dff0;
-    padding-bottom: 0.675rem;
+    padding-bottom: 0.375rem;
     margin-bottom: 1.2rem;
   }
 
