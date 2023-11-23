@@ -169,7 +169,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   line-height: 1.3;
   font-weight: 400;
 }
@@ -428,6 +428,15 @@ a.social-footer-link:hover {
   opacity: 0.3;
 }
 
+.opacity{
+background-color: var(--background-color);
+opacity: 0.3;}
+
+.whoops {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
 /* 
 
  █████  ██████   ██████  ██    ██ ████████ 
