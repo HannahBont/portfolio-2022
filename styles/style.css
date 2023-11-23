@@ -197,7 +197,7 @@ h6 {
 
 p {
   font-size: 1rem;
-  line-height: 2;
+  line-height: 1.75;
   font-family: "Jost", sans-serif;
   font-weight: 300;
   color: var(--primary-text-color);
@@ -469,6 +469,11 @@ a.social-footer-link:hover {
 }
 .about-list-item {
   padding-bottom: 0.5rem;
+}
+
+.experience-list {
+  line-height: 0.5rem;
+  padding-bottom: 0.55rem;
 }
 /* Global Footer
 
@@ -880,12 +885,23 @@ width: 25rem;
     padding-top: 6rem;
   }
 
+
   .project-image-container {
     flex-direction: row;
   }
 
   .project-navigation {
     justify-content: flex-start;
+  }
+  .project-description {
+    font-size: 1.2rem;
+    line-height: 1.65;
+    margin-bottom: 0;
+  }
+
+  .personal-bio {
+    padding-top: 0rem;
+    font-size: 1.25rem;
   }
 }
 
