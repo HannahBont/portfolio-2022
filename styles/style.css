@@ -437,14 +437,12 @@ a.social-footer-link:hover {
 ██   ██ ██████   ██████   ██████     ██    
                                            
 */
+
 .project-sidebar {
-  width: 20%;
-  height: 90vh;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 6rem;
-  padding-right: 2rem;
-  padding-top: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0rem;
 }
 
 .about {
@@ -872,7 +870,6 @@ width: 25rem;
     top: 6rem;
     padding-right: 2rem;
   }
-
   /* Main Project Image Area on Large Devices */
   .project-details {
     width: 80%;
@@ -887,6 +884,21 @@ width: 25rem;
   .project-navigation {
     justify-content: flex-start;
   }
+
+    /* Sidebar on About Page Large Devices */
+    .project-sidebar {
+      width: 20%;
+      height: 90vh;
+      position: -webkit-sticky;
+      position: sticky;
+      padding-top: 6rem;
+      padding-right: 2rem;
+    }
+
+    .project-details {
+      padding-top: 1.45rem;
+      font-size: 1.2rem;
+    }
 }
 
 /* Only add styles below to make very minor adjustments for extra or extra-extra large devices */
