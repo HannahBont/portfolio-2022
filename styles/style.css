@@ -134,7 +134,9 @@ h1 {
   font-size: 2rem;
   font-family: "Jost", sans-serif;
   margin-bottom: 1rem;
+  margin-top: 2.75rem;
   color: rgb(3, 14, 33);
+  font-weight: 800;
 }
 
 .hero-header {
@@ -159,7 +161,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: "Jost", sans-serif;
   font-weight: 700;
 }
@@ -261,7 +263,11 @@ a.social-footer-link:hover {
   display: flex;
   flex-direction: row;
 }
-
+.menu-item {
+  font-size: 1rem;
+  font-weight: 300;
+  padding-right: 0.8rem;
+}
 .doodles {
   max-width: 2.2rem;
   padding-left: 0.1rem;
@@ -334,7 +340,14 @@ a.social-footer-link:hover {
 .large {
   width: 100%;
   justify-content: flex-start;
-  font-weight: 800;
+  font-weight: 300;
+}
+.menu-subhead {
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: 0.08rem solid #e0dff0;
+  padding-bottom: 0.375rem;
+  margin-bottom: 1.2rem;
 }
 
 .hero-wrapper {
@@ -681,108 +694,6 @@ width: 25rem;
 ███████ ██   ██ ██      ███████ ██   ██ ██ ██      ██ ███████ ██   ████    ██    ███████ 
 */
 
-.experiments-page {
-  display: grid;
-  place-items: center;
-  background: black;
-}
-
-.experiments-page-inner-container {
-  text-align: center;
-  min-height: 100vh;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.experiments-page-title {
-  color: var(--accent-color);
-  font-size: 2rem;
-}
-
-.experiments-text {
-  color: var(--alice-blue);
-}
-
-.experiment-1-wrapper {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1rem;
-  flex: 1;
-}
-
-.experiment-2-wrapper {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 1rem;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-}
-
-.sub-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding: 1rem;
-  text-align: center;
-}
-
-.sub-navigation-item {
-}
-
-a.sub-navigation-link {
-  border: 1px solid var(--accent-color);
-  color: var(--accent-color);
-  padding: 1rem;
-}
-
-a.sub-navigation-link:hover {
-  background: var(--accent-color);
-  color: var(--floral-white);
-  padding: 1rem;
-}
-
-/* Let's size the boxes */
-
-.experiment-box {
-  width: 50%;
-  padding: 2rem;
-  display: grid;
-  place-items: center;
-}
-
-.image {
-  width: 40%;
-}
-
-/* Let's hide box 2 */
-
-.experiment-image-2 {
-  display: none;
-}
-
-.experiment-image-single {
-  width: 20rem;
-  padding: 2rem;
-  display: grid;
-  place-items: center;
-}
-
-#heyday-logo-blue {
-  animation: rotation 9s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(359deg);
-  }
-}
 
 /*
 
@@ -820,6 +731,7 @@ a.sub-navigation-link:hover {
     font-size: 2.5rem;
     line-height: 1;
     font-weight: 800;
+    margin-top: 0rem;
   }
 
   h2 {
@@ -854,6 +766,12 @@ a.sub-navigation-link:hover {
 
   .small {
     justify-content: flex-end;
+  }
+  
+  .large {
+    width: 100%;
+    justify-content: flex-start;
+    font-weight: 300;
   }
 
   .hero {
