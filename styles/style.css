@@ -345,7 +345,7 @@ a.social-footer-link:hover {
 .menu-subhead {
   font-size: 1.5rem;
   font-weight: 500;
-  border-bottom: 0.08rem solid #e0dff0;
+  border-bottom: 0.08rem solid #f1efe3;
   padding-bottom: 0.375rem;
   margin-bottom: 1.2rem;
 }
@@ -772,7 +772,7 @@ width: 25rem;
   .menu-subhead {
     font-size: 1.5rem;
     font-weight: 500;
-    border-bottom: 0.08rem solid #e0dff0;
+    border-bottom: 0.08rem solid #f1efe3;
     padding-bottom: 0.375rem;
     margin-bottom: 1.2rem;
   }
@@ -874,6 +874,7 @@ width: 25rem;
     flex-direction: row;
     width: 80%;
     padding-top: 6rem;
+    padding-left: 2rem;
   }
 
   .project-info {
@@ -895,7 +896,7 @@ width: 25rem;
     position: -webkit-sticky;
     position: sticky;
     top: 6rem;
-    padding-right: 2rem;
+    
   }
 
   /* Main Project Image Area on Large Devices */
