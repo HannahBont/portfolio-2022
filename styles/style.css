@@ -463,9 +463,7 @@ opacity: 0.3;}
   flex: 1;
 }
 
-.portrait {
-  max-width: 75%;
-}
+
 
 .about-item-1 {
   grid-column: 1 / 2;
@@ -574,15 +572,16 @@ a.footer-link:hover {
 
 .project-info {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-bottom: 3.25rem;
 }
 
 .project-title-and-categories-container {
-  width: 45%;
+  width: 100%;
+  
 }
 .project-description-container {
-  width: 55%;
+  width: 100%;
 }
 .project-image-container {
   display: flex;
@@ -875,6 +874,18 @@ width: 25rem;
     flex-direction: row;
     width: 80%;
     padding-top: 6rem;
+  }
+
+  .project-info {
+    flex-direction: row;
+  }
+  
+  .project-title-and-categories-container {
+    width: 45%;
+    margin-right: 2rem;
+  }
+  .project-description-container {
+    width: 55%;
   }
 
   /* Sidebar on Large Devices */
