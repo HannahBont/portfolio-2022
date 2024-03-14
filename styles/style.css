@@ -244,6 +244,11 @@ a.social-footer-link:hover {
   color: var(--hyperlink-alternate-color);
 }
 
+/* Navigation menu styles */
+
+.nav-heading-and-sub-menu-wrapper {
+  display: none;
+}
 .custom-navigation {
   margin-bottom: 0.4rem;
   margin-right: 0.4rem;
@@ -718,6 +723,9 @@ a.footer-link:hover {
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
+  .nav-heading-and-sub-menu-wrapper {
+    display: block;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
