@@ -27,6 +27,7 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 @import url("scroll-to-top.css");
 @import url("project-page-colors.css");
+@import url("responsive-nav.css");
 
 /*
 
@@ -176,7 +177,7 @@ h3 {
 
 h4 {
   color: var(--baby-powder);
-  
+
   font-weight: 300;
   padding-top: 0.4rem;
   padding-bottom: 1.5rem;
@@ -429,9 +430,10 @@ a.social-footer-link:hover {
   opacity: 0.3;
 }
 
-.opacity{
-background-color: var(--background-color);
-opacity: 0.3;}
+.opacity {
+  background-color: var(--background-color);
+  opacity: 0.3;
+}
 
 .whoops {
   position: absolute;
@@ -463,8 +465,6 @@ opacity: 0.3;}
   grid-gap: 4rem;
   flex: 1;
 }
-
-
 
 .about-item-1 {
   grid-column: 1 / 2;
@@ -579,7 +579,6 @@ a.footer-link:hover {
 
 .project-title-and-categories-container {
   width: 100%;
-  
 }
 .project-description-container {
   width: 100%;
@@ -638,7 +637,6 @@ a.footer-link:hover {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-
 }
 
 .holding-page-inner-container {
@@ -646,16 +644,12 @@ a.footer-link:hover {
   height: 50vh;
   display: grid;
   place-items: center;
-
-
 }
 
 .holding-page-animation {
-width: 25rem;
+  width: 25rem;
   margin-bottom: 1rem;
   margin: 0 auto;
-
-
 }
 
 .holding-page-title {
@@ -678,7 +672,10 @@ width: 25rem;
   margin-bottom: 0;
 }
 
-.holding-page-link {width: 80%; min-height: 30vh;}
+.holding-page-link {
+  width: 80%;
+  min-height: 30vh;
+}
 /*
 ███████ ██████  ██████   ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
@@ -707,7 +704,6 @@ width: 25rem;
 ██       ██ ██  ██      ██      ██   ██ ██ ██  ██  ██ ██      ██  ██ ██    ██         ██ 
 ███████ ██   ██ ██      ███████ ██   ██ ██ ██      ██ ███████ ██   ████    ██    ███████ 
 */
-
 
 /*
 
@@ -756,14 +752,14 @@ width: 25rem;
     font-size: 1rem;
   }
 
-h4 {
-  color: var(--baby-powder);
-  font-size: 1.2rem;
-  font-weight: 300;
-  padding-top: 1.2rem;
-  font-family: "Jost", sans-serif;
-  line-height: 1.5;
-}
+  h4 {
+    color: var(--baby-powder);
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-top: 1.2rem;
+    font-family: "Jost", sans-serif;
+    line-height: 1.5;
+  }
 
   .logo {
     width: 5rem;
@@ -790,7 +786,7 @@ h4 {
   .small {
     justify-content: flex-end;
   }
-  
+
   .large {
     width: 100%;
     justify-content: flex-start;
@@ -888,9 +884,9 @@ h4 {
   }
 
   .project-info {
-    flex-direction: row;
+    flex-direction: column;
   }
-  
+
   .project-title-and-categories-container {
     width: 45%;
     margin-right: 2rem;
@@ -906,7 +902,6 @@ h4 {
     position: -webkit-sticky;
     position: sticky;
     top: 6rem;
-    
   }
 
   /* Main Project Image Area on Large Devices */
@@ -917,7 +912,6 @@ h4 {
 
     padding-top: 6.3rem;
   }
-
 
   .project-image-container {
     flex-direction: row;

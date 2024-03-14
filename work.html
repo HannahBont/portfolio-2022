@@ -30,13 +30,48 @@
       <div class="menu-wrapper">
         <aside class="project-aside">
           <div class="project-info">
-            <ul class="menu large">
+            <div class="topnav working" id="myTopnav">
+              <a href="work.html" class="menu-name active"
+                ><h1>Hannah Bontinen</h1></a
+              >
+              <h2 class="menu-subhead">Design</h2>
+              <a href="rally-digital-platform.html" class="menu-item"
+                >Rally Digital Platform</a
+              >
+              <a href="spinoff-funk-festival.html" class="menu-item"
+                >Spinoff Funk Fest</a
+              >
+              <h2 class="menu-subhead">Illustration</h2>
+              <a href="rally-digital-platform.html" class="menu-item"
+                >Rally Digital Platform</a
+              >
+              <a href="spinoff-funk-festival.html" class="menu-item"
+                >Spinoff Funk Fest</a
+              >
+              <h2 class="menu-subhead">About</h2>
+              <a href="rally-digital-platform.html" class="menu-item"
+                >Rally Digital Platform</a
+              >
+              <a href="spinoff-funk-festival.html" class="menu-item"
+                >Spinoff Funk Fest</a
+              >
+              <h2 class="menu-subhead">Explore</h2>
+              <a href="rally-digital-platform.html" class="menu-item"
+                >Rally Digital Platform</a
+              >
+              <a href="spinoff-funk-festival.html" class="menu-item"
+                >Spinoff Funk Fest</a
+              >
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+            <ul class="topnav" id="myTopnav">
               <li class="custom-navigation">
                 <h1>
                   <a href="work.html" class="menu-name">Hannah Bontinen</a>
                 </h1>
               </li>
-
 
               <li class="custom-navigation">
                 <h2 class="menu-subhead">Design</h2>
@@ -59,10 +94,14 @@
                   </li>
 
                   <li class="project-list-item">
-                    <a href="pulse-dance.html" class="menu-item">Pulse Dance School</a>
+                    <a href="pulse-dance.html" class="menu-item"
+                      >Pulse Dance School</a
+                    >
                   </li>
                   <li class="project-list-item">
-                    <a href="Grit.html" class="menu-item">Grit Social Enterprise</a>
+                    <a href="Grit.html" class="menu-item"
+                      >Grit Social Enterprise</a
+                    >
                   </li>
                 </ul>
               </li>
@@ -71,7 +110,9 @@
 
                 <ul class="project-list">
                   <li class="project-list-item">
-                    <a href="self-portrait.html" class="menu-item">Self Portrait "Judgement"</a>
+                    <a href="self-portrait.html" class="menu-item"
+                      >Self Portrait "Judgement"</a
+                    >
                   </li>
                   <li class="project-list-item">
                     <a href="transformation-of-tunes.html" class="menu-item"
@@ -169,7 +210,15 @@
                   </li>
                 </ul>
               </li>
-              
+              <li class="custom-navigation">
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="myFunction()"
+                >
+                  <i class="fa fa-bars"></i>
+                </a>
+              </li>
             </ul>
             <!--ends the entire nav-->
           </div>
@@ -186,7 +235,7 @@
                   </div>
                   <figure>
                     <img
-                    src="assets/project-images/rally-capstone-project/rally-platform-ux-ui-education-hannah-bontinen.gif"
+                      src="assets/project-images/rally-capstone-project/rally-platform-ux-ui-education-hannah-bontinen.gif"
                       alt="Describe your project"
                     />
                   </figure>
@@ -249,7 +298,7 @@
                   </figure>
                 </a>
               </li>
-              
+
               <li class="work-page-grid-item">
                 <a href="self-portrait.html"
                   ><div class="overlay effect1">
@@ -277,21 +326,20 @@
                     />
                   </figure>
                 </a>
-                <li class="work-page-grid-item">
-                  <a href="organic-winter-ale.html"
-                    ><div class="overlay effect1">
-                      <h5 class="project-title">Master Of Distraction</h5>
-                      <h6 class="project-description">Illustration</h6>
-                    </div>
-                    <figure>
-                      <img
-                        src="assets/project-images/master-of-distraction/editorial-illustration-master-of-distraction-hannah-bontinen.jpg"
-                        alt="Describe your project"
-                      />
-                    </figure>
-                  </a>
-                </li>
-               
+              </li>
+              <li class="work-page-grid-item">
+                <a href="organic-winter-ale.html"
+                  ><div class="overlay effect1">
+                    <h5 class="project-title">Master Of Distraction</h5>
+                    <h6 class="project-description">Illustration</h6>
+                  </div>
+                  <figure>
+                    <img
+                      src="assets/project-images/master-of-distraction/editorial-illustration-master-of-distraction-hannah-bontinen.jpg"
+                      alt="Describe your project"
+                    />
+                  </figure>
+                </a>
               </li>
             </ul>
           </section>
@@ -356,5 +404,17 @@
         </ul>
       </li>
     </ul>
+
+    <script>
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
   </body>
 </html>
