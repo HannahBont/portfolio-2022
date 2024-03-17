@@ -255,7 +255,7 @@ a.social-footer-link:hover {
 }
 
 .custom-navigation:last-of-type {
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 .project-list-item {
   padding-bottom: 0.655rem;
