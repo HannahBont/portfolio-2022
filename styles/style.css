@@ -916,7 +916,7 @@ a.footer-link:hover {
 
   .project-title-and-categories-container {
     width: 45%;
-    margin-right: 2rem;
+    margin-right: 4rem;
   }
   .project-description-container {
     width: 55%;
@@ -934,7 +934,7 @@ a.footer-link:hover {
   /* Main Project Image Area on Large Devices */
   .project-details {
     width: 80%;
-    padding-left: 4rem;
+    padding-left: 2rem;
     padding-bottom: 3rem;
 
     padding-top: 6.3rem;
