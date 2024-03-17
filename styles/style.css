@@ -580,7 +580,7 @@ a.footer-link:hover {
 .project-info {
   display: flex;
   flex-direction: column;
-  padding-bottom: 0rem;
+  padding-bottom: 0;
 }
 
 .project-title-and-categories-container {
@@ -906,6 +906,7 @@ a.footer-link:hover {
   }
 
   .project-info {
+    display: flex;
     flex-direction: column;
   }
 
