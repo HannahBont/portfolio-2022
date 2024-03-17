@@ -59,6 +59,7 @@ html {
 .spinoff {
   padding-left: 1rem;
   padding-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* Use variable for to easily change your theme's colour scheme and typography.
@@ -504,7 +505,6 @@ a.social-footer-link:hover {
   min-height: 50vh;
   background: #07071b;
   padding: 1.5rem;
-  margin-top: 1rem;
 }
 
 a.footer-link {
@@ -739,6 +739,7 @@ a.footer-link:hover {
   .spinoff {
     padding-left: 6rem;
     padding-right: 6rem;
+    margin-bottom: 0;
   }
 
   .holding-page-title {
