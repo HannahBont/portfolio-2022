@@ -579,7 +579,7 @@ a.footer-link:hover {
 .project-info {
   display: flex;
   flex-direction: column;
-  padding-bottom: 1.2rem;
+  padding-bottom: 0rem;
 }
 
 .project-title-and-categories-container {
