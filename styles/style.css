@@ -750,6 +750,7 @@ a.footer-link:hover {
     line-height: 1;
     font-weight: 800;
     margin-bottom: 1.25rem;
+    margin-top: 0;
   }
 
   h2 {
