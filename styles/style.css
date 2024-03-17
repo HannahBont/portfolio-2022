@@ -911,7 +911,7 @@ a.footer-link:hover {
 
   .about-info {
    display: flex; 
-   flex-direction: column;
+   flex-direction: row;
   }
 
   .project-title-and-categories-container {
