@@ -906,8 +906,12 @@ a.footer-link:hover {
   }
 
   .project-info {
-    display: flex;
     flex-direction: column;
+  }
+
+  .about-info {
+   display: flex; 
+   flex-direction: column;
   }
 
   .project-title-and-categories-container {
