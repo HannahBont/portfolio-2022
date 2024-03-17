@@ -503,7 +503,8 @@ a.social-footer-link:hover {
   grid-gap: 3rem;
   min-height: 50vh;
   background: #07071b;
-  padding: 2rem;
+  padding: 1.5rem;
+  margin-top: 1rem;
 }
 
 a.footer-link {
@@ -837,6 +838,7 @@ a.footer-link:hover {
 
   .global-footer {
     padding: 6rem;
+    margin-top: 0;
   }
 
   .about-item-1 {
