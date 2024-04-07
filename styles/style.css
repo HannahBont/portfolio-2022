@@ -491,6 +491,12 @@ a.social-footer-link:hover {
   font-weight: 400;
 }
 
+.about-category {
+
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 .experience-list {
   line-height: 0.5rem;
   padding-bottom: 0.55rem;
