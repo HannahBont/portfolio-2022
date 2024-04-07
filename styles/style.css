@@ -650,11 +650,10 @@ a.footer-link:hover {
   height: 50vh;
   display: grid;
   text-align: center;
-  place-items: center;
 }
 
 .holding-page-animation {
-  width: 25rem;
+  width: 20rem;
   margin-bottom: 1rem;
   margin: 0 auto;
 }
@@ -744,10 +743,24 @@ a.footer-link:hover {
     padding-right: 6rem;
     margin-bottom: 0;
   }
-
+/* holding page animation large devices*/
   .holding-page-title {
     font-size: 2rem;
   }
+  .holding-page-inner-container {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    text-align: center;
+    place-items: center;
+  }
+  
+  .holding-page-animation {
+    width: 25rem;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+  }
+
 
   h1 {
     font-size: 2.5rem;
