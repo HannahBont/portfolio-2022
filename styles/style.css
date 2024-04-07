@@ -668,6 +668,7 @@ a.footer-link:hover {
 .holding-page-footer {
   display: grid;
   place-items: center;
+  text-align: center;
   min-height: 10vh;
   width: 100%;
 }
