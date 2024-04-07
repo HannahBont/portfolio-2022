@@ -650,6 +650,7 @@ a.footer-link:hover {
   height: 50vh;
   display: grid;
   text-align: center;
+  place-items: center;
 }
 
 .holding-page-animation {
