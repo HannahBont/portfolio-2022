@@ -486,6 +486,11 @@ a.social-footer-link:hover {
   padding-bottom: 0.5rem;
 }
 
+.about-item {
+
+  font-weight: 400;
+}
+
 .experience-list {
   line-height: 0.5rem;
   padding-bottom: 0.55rem;
